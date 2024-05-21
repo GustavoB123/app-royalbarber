@@ -2,7 +2,7 @@ export const estilo = {
     button: {
     backgroundColor: 'transparent',
       padding: 10,
-      width:300,
+      width:250,
       borderRadius: 20,
       marginTop: 20,
       color:'black',
@@ -63,6 +63,23 @@ export const estilo = {
         fontSize: 15,
         lineHeight: 20,
         color: 'white',
+      },
+      btnServicos: {
+        width: 150,
+        height: 40,
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: '#FF6D24',
+        borderRadius: 20,
+        alignSelf: 'flex-end',
+        marginTop: 90,
+        marginRight: 30
+      },
+
+      textServico: {
+        color: 'white',
+        fontWeight: 600,
+        
       }
 
 };
